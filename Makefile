@@ -5,4 +5,4 @@ build: init
 	go build
 
 test: init
-	ginkgo -r
+	go test ./...
