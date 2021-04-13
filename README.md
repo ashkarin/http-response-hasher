@@ -19,7 +19,7 @@ To run tests
 make test
 ```
 
-## Usage ##
+# Usage #
 
 The tool has only a `--parallel` parameter to control the number of workers
 processing the URLs in parallel.
@@ -27,3 +27,6 @@ processing the URLs in parallel.
 ```
 http-response-hasher --parallel 2 google.com http://mail.ru
 ```
+
+## DEMO ##
+[![asciicast](https://asciinema.org/a/keGyVFYlpMyLNCIGgWNzQ8LV2.svg)](https://asciinema.org/a/keGyVFYlpMyLNCIGgWNzQ8LV2)
