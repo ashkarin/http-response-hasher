@@ -19,3 +19,11 @@ To run tests
 make test
 ```
 
+## Usage ##
+
+The tool has only a `--parallel` parameter to control the number of workers
+processing the URLs in parallel.
+
+```
+http-response-hasher --parallel 2 google.com http://mail.ru
+```
