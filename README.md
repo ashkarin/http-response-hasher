@@ -20,6 +20,12 @@ To run tests
 make test
 ```
 
+# Install #
+To install
+```
+go intsall github.com/ashkarin/httpresphasher@latest
+```
+
 # Usage #
 
 The tool has only a `--parallel` parameter to control the number of workers
