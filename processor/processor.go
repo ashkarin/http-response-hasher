@@ -18,7 +18,7 @@ type Result struct {
 type Processor func(Value) Result
 
 // Process processes values with processor using nWorkers and returns
-// an unordered generator of ProcessingResult
+// an unordered generator of Result
 func Process(values chan Value, processor Processor, nWorkers uint, queueSize uint) (<-chan Result, error) {
 	if nWorkers == 0 {
 		return nil, fmt.Errorf("nWorkers should be greater or equal to 1")
@@ -67,7 +67,7 @@ func Process(values chan Value, processor Processor, nWorkers uint, queueSize ui
 		close(results)
 	}()
 
-	// distribte values
+	// distribute values
 	go func() {
 		for value := range values {
 			workerQueue := <-workersQueues
