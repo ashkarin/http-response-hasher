@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"http-response-hasher/app"
-	"http-response-hasher/hasher"
+	"github.com/ashkarin/httpresphasher/app"
+	"github.com/ashkarin/httpresphasher/hasher"
 )
 
 func TestApp(t *testing.T) {

@@ -1,7 +1,7 @@
 package processor_test
 
 import (
-	p "http-response-hasher/processor"
+	p "github.com/ashkarin/httpresphasher/processor"
 	"testing"
 )
 

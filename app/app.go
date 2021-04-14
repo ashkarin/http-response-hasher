@@ -1,8 +1,8 @@
 package app
 
 import (
-	"http-response-hasher/hasher"
-	p "http-response-hasher/processor"
+	"github.com/ashkarin/httpresphasher/hasher"
+	p "github.com/ashkarin/httpresphasher/processor"
 	"net/http"
 	"net/url"
 	"strings"

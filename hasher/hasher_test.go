@@ -6,7 +6,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"fmt"
-	"http-response-hasher/hasher"
+	"github.com/ashkarin/httpresphasher/hasher"
 	"net/http"
 	"strings"
 	"testing"

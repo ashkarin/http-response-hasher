@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"http-response-hasher/app"
+	"github.com/ashkarin/httpresphasher/app"
 	"os"
 )
 

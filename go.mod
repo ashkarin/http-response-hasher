@@ -1,3 +1,3 @@
-module http-response-hasher
+module github.com/ashkarin/httpresphasher
 
 go 1.16
