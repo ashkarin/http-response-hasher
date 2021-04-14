@@ -1,6 +1,8 @@
 HTTP Response Hasher
 =====================
 
+![Tests](https://github.com/ashkarin/httpresphasher/actions/workflows/test.yaml/badge.svg)
+
 Tool to request URLs and calculate MD5 hashes of the received responses
 in parallel.
 
