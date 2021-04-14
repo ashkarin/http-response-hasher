@@ -1,11 +1,12 @@
 HTTP Response Hasher
 =====================
 
-Utility to request URLs and calculate MD5 hashes of responses in parallel.
+Tool to request URLs and calculate MD5 hashes of the received responses
+in parallel.
 
 # Disclaimer #
-This is a toy project made for fun and will not be supported.
-It is implemented using Go's standard library only.
+This is a toy project made for fun and it will not be supported.
+It is implemented using only the standard Go library.
 
 # Build and Test #
 
